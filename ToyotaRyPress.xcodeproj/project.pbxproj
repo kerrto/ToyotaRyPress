@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AB17A6671BF6F1CE0003E75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB17A6661BF6F1CE0003E75A /* main.m */; };
+		AB17A66F1BF6F1E00003E75A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = AB17A66E1BF6F1E00003E75A /* Car.m */; };
+		AB17A6721BF70CEB0003E75A /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = AB17A6711BF70CEB0003E75A /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AB17A6631BF6F1CE0003E75A /* ToyotaRyPress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToyotaRyPress; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB17A6661BF6F1CE0003E75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB17A66D1BF6F1E00003E75A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		AB17A66E1BF6F1E00003E75A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		AB17A6701BF70CEB0003E75A /* Toyota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		AB17A6711BF70CEB0003E75A /* Toyota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AB17A6661BF6F1CE0003E75A /* main.m */,
+				AB17A66D1BF6F1E00003E75A /* Car.h */,
+				AB17A66E1BF6F1E00003E75A /* Car.m */,
+				AB17A6701BF70CEB0003E75A /* Toyota.h */,
+				AB17A6711BF70CEB0003E75A /* Toyota.m */,
 			);
 			path = ToyotaRyPress;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB17A6721BF70CEB0003E75A /* Toyota.m in Sources */,
+				AB17A66F1BF6F1E00003E75A /* Car.m in Sources */,
 				AB17A6671BF6F1CE0003E75A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
