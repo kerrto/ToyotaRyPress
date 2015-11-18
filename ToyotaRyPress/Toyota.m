@@ -11,9 +11,8 @@
 @implementation Toyota
 
 - (id)initWithModel:(NSString *)model {
-    self = [super init];
+    self = [super initWithModel: @"Prius"];
     if (self) {
-        model = @"Prius";
         
     }
     return self;

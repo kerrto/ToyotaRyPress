@@ -11,7 +11,7 @@
 
 @interface Car : NSObject
 
-- (id)initWithModel:(NSString *)Model;
+- (id)initWithModel:(NSString *)model;
 
 @property (copy) NSString *model;
 

@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Toyota : NSObject
+NSString *Prius;
 
-- (id)initWithModel:(NSString *)model;
+@interface Toyota : NSObject
+- (id)initWithModel:(NSString *)model
+
+
+
+
+
 
 @end
