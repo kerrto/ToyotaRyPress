@@ -11,7 +11,7 @@
 NSString *Prius;
 
 @interface Toyota : NSObject
-- (id)initWithModel:(NSString *)model
+- (id)initWithModel:(NSString *)model;
 
 
 
