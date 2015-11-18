@@ -7,11 +7,12 @@
 //
 
 #import "Toyota.h"
+#import "Car.h"
 
 @implementation Toyota
 
 - (id)initWithModel:(NSString *)model {
-    self = [super initWithModel: @"Prius"];
+    self = [super initWithModel:@"Prius"];
     if (self) {
         
     }
